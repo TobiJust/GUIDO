@@ -1,0 +1,8 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="guido_grey">#595959</color>
+    <color name="guido_grey_pressed">#474747</color>
+	<color name="linktext">#FF0000</color>
+    
+</resources>

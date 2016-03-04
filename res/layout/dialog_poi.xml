@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dip" >
+
+    <TextView
+        android:id="@+id/label_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="POI Name:"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/firstLine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/label_Name"
+        android:layout_below="@+id/label_Name"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/label_Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/firstLine"
+        android:layout_below="@+id/firstLine"
+        android:text="Description:"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/secondLine"
+        android:layout_width="fill_parent"
+        android:layout_height="80dip"
+        android:layout_alignLeft="@+id/label_Description"
+        android:layout_below="@+id/label_Description"
+        android:gravity="top"
+        android:ems="10"
+        android:lines="5"
+        android:textSize="12sp" />
+
+</RelativeLayout>

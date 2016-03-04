@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:id="@+id/filter_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/check_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/filter_name" />
+
+        <EditText
+            android:id="@+id/name_input"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/filter_name_hint"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:id="@+id/check_public"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/filter_public" />
+
+        <CheckBox
+            android:id="@+id/check_not_full"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/filter_not_full" />
+
+        <CheckBox
+            android:id="@+id/check_own"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/filter_own_routes" />
+
+        <CheckBox
+            android:id="@+id/check_maxparts"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/filter_maxparts" />
+
+        <EditText
+            android:id="@+id/maxpart_input"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/filter_maxparts_hint"
+            android:inputType="number"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:id="@+id/check_date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/filter_time" />
+
+        <TimePicker
+            android:id="@+id/timepicker"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <DatePicker
+            android:id="@+id/datepicker"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:id="@+id/check_category"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/filter_category" />
+
+        <Spinner
+            android:id="@+id/category_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:id="@+id/check_traveltype"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/filter_traveltype" />
+
+        <Spinner
+            android:id="@+id/traveltype_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</ScrollView>

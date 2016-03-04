@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/route_creator_map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RouteCreatorMap" >
+
+    <org.osmdroid.views.MapView
+        android:id="@+id/activeMap"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </org.osmdroid.views.MapView>
+
+</RelativeLayout>

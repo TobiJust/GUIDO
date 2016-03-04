@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/active_route_action_leave"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/active_route_action_leave"/>
+    <item
+        android:id="@+id/active_route_action_end"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/active_route_action_end"/>
+    <item
+        android:id="@+id/active_route_action_notification"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:actionLayout="@layout/feed_participator_count"
+        android:icon="@drawable/shape_notification"
+        android:title="@string/general_logout"/>
+    <item
+        android:id="@+id/active_route_action_position_focus"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_location_found"
+        android:title="@string/general_logout"/>
+
+</menu>

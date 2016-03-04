@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   <item
+        android:id="@+id/action_prev"
+        android:icon="@drawable/ic_action_back"
+        android:showAsAction="always"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_undo"
+        android:icon="@drawable/ic_action_undo"
+        android:showAsAction="always"
+        android:title="@string/action_undo"/>
+    <item
+        android:id="@+id/action_address"
+        android:icon="@drawable/ic_action_map"
+        android:showAsAction="always"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_finish"
+        android:icon="@android:drawable/ic_menu_send"
+        android:showAsAction="always"
+        android:title="@string/action_settings"/>
+
+</menu>
